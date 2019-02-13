@@ -4,8 +4,8 @@ new Vue({ //Construtor
         titulo: 'Hello World VueJs!!!'
     },
     methods: { //Cria metodos
-        alterarTitulo(event) {
-            this.titulo = event.target.value
+        saudacao() {
+            return 'Boa Semana!!!'
         }
     }
 })
